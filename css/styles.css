@@ -37,24 +37,24 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
-}
-
 .current {
   color: var(--accent-color);
 }
 
 .contact-link {
   color: var(--secondary-color);
-  font-style: normal;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.7;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
 }
 
 .hero-section {
@@ -78,6 +78,7 @@ body {
 .hero-button {
   color: var(--text-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -90,7 +91,7 @@ body {
 .filter-button {
   color: var(--primary-color);
   background-color: #f5f4fa;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -110,24 +111,39 @@ body {
 }
 
 .section-heading {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .section-text {
   color: var(--secondary-color);
-  font-size: 16px;
-  line-height: 1.1;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .secondary-heading {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-member {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -173,6 +189,13 @@ body {
 
 .footer {
   background-color: var(--secondary-background-color);
+}
+.contact-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .map-link {
