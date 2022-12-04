@@ -9,13 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -65,15 +59,16 @@
                 <button type="button" class="filter-button button">Маркетинг</button>
               </li>
             </ul>
-            <ul class="list examples-list">
-              <li>
+            <ul class="list flex-container">
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li1.jpg" alt="ноутбук з выдкритим сайтом" width="370" />
+                  <div></div>
                   <h2 class="example-heading">Технокряк</h2>
                   <p class="description">Веб-сайт</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li2.jpg" alt="двоє гравців грають в баскетбол" width="370" />
                   <h2 class="example-heading">
@@ -82,49 +77,49 @@
                   <p class="description">Дизайн</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li3.jpg" alt="вивіска ресторану" width="370" />
                   <h2 class="example-heading">Ресторан <span lang="en">Seafood</span></h2>
                   <p class="description">Додаток</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li4.jpg" alt="безпровідні навушники" width="370" />
                   <h2 class="example-heading">Проєкт <span lang="en">Prime</span></h2>
                   <p class="description">Маркетинг</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li5.jpg" alt="дві коробки" width="370" />
                   <h2 class="example-heading">Проєкт <span lang="en">Boxes</span></h2>
                   <p class="description">Додаток</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li6.jpg" alt="екран стаціонарного комп'ютера" width="370" />
                   <h2 class="example-heading"><span lang="en">Inspiration has no Borders</span></h2>
                   <p class="description">Веб-сайт</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li7.jpg" alt="журнал" width="370" />
                   <h2 class="example-heading">Видання <span lang="en">Limited Edition</span></h2>
                   <p class="description">Дизайн</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img src="./images/li8.jpg" alt="бірка" width="370" />
                   <h2 class="example-heading">Проєкт <span lang="en">LAB</span></h2>
                   <p class="description">Маркетинг</p></a
                 >
               </li>
-              <li>
+              <li class="example-item">
                 <a href="" class="example link"
                   ><img
                     src="./images/li9.jpg"
@@ -140,22 +135,26 @@
         </section>
       </main>
       <footer class="footer">
-        <a href="" class="logo logo-footer link"><span class="accent">Web</span>Studio</a>
-        <address>
-          <ul class="list">
-            <li>
-              <a
-                href="https://www.google.pl/maps/place/Lesi+Ukrainky+Blvd,+26/@50.4265841,30.5361971,17z/data=!4m7!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!4b1!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv"
-                class="map-link contact-footer link"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="contact-footer link">info@devstudio.com</a>
-            </li>
-            <li><a href="tel:+380961111111" class="contact-footer link">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
+        <div class="container">
+          <a href="" class="logo logo-footer link"><span class="accent">Web</span>Studio</a>
+          <address>
+            <ul class="list">
+              <li class="address-item">
+                <a
+                  href="https://www.google.pl/maps/place/Lesi+Ukrainky+Blvd,+26/@50.4265841,30.5361971,17z/data=!4m7!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!4b1!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv"
+                  class="map-link contact-footer link"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@devstudio.com" class="contact-footer link">info@devstudio.com</a>
+              </li>
+              <li class="address-item">
+                <a href="tel:+380961111111" class="contact-footer link">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </footer>
   </body>
 </html>
