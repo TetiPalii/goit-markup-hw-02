@@ -9,8 +9,15 @@
   --section-background-color: #f5f4fa;
   --logo-text-color: #000000;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -18,6 +25,7 @@
 }
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .header-container {
@@ -43,8 +51,6 @@ p {
 }
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
 
   color: var(--logo-text-color);
@@ -86,7 +92,7 @@ p {
   padding-bottom: 32px;
 }
 .contact-item:first-child {
-  margin-left: 354px;
+  margin-left: auto;
   margin-right: 40px;
 }
 
@@ -108,6 +114,7 @@ p {
 
 .hero-section {
   background-color: var(--secondary-background-color);
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -116,7 +123,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding-top: 200px;
 
   color: var(--text-color);
   font-weight: 900;
@@ -153,7 +159,6 @@ p {
 .portfolio-buttons {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -198,7 +203,7 @@ p {
 }
 
 .example-item {
-  width: 370px;
+  flex-basis: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -213,7 +218,6 @@ p {
 
 .list-container {
   display: flex;
-  padding-top: 94px;
 }
 
 .section-item {
@@ -251,12 +255,6 @@ p {
   display: flex;
 }
 
-.img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .list-image:not(:last-child) {
   margin-right: 30px;
 }
@@ -270,25 +268,30 @@ p {
 
 .team-images {
   display: flex;
-  padding-bottom: 94px;
+  flex-basis: 270px;
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
 .team-member {
   margin-bottom: 10px;
-
+  padding-right: 70px;
+  padding-left: 71px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-.photo {
-  margin-bottom: 30px;
+.card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--text-color);
 }
+
 .about-member {
+  padding-right: 70px;
+  padding-left: 70px;
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.18;
@@ -311,7 +314,7 @@ p {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  padding: 20px 24px 54px 24px;
+  padding: 20px 24px 20px 24px;
 }
 .description {
   color: var(--secondary-color);
@@ -367,6 +370,7 @@ p {
 }
 .list {
   list-style: none;
+  margin-left: auto;
 }
 .address-item:not(:last-child) {
   margin-bottom: 12px;
