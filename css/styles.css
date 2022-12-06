@@ -292,8 +292,6 @@ p {
 }
 
 .about-member {
-  padding-right: 70px;
-  padding-left: 70px;
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.18;
