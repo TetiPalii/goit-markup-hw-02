@@ -266,9 +266,6 @@ p {
 .team-section {
   background-color: var(--section-background-color);
 }
-.team {
-  padding-top: 94px;
-}
 
 .team-images {
   display: flex;
@@ -285,7 +282,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.card {
+.card-container {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--text-color);
