@@ -216,6 +216,10 @@ p {
   margin-bottom: 0;
 }
 
+.padding {
+  padding-top: 0;
+}
+
 .list-container {
   display: flex;
 }
@@ -275,8 +279,6 @@ p {
 }
 .team-member {
   margin-bottom: 10px;
-  padding-right: 70px;
-  padding-left: 71px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
