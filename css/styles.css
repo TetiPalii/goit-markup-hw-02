@@ -200,12 +200,10 @@ p {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100%-60) / 3);
 }
 
 .example-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  flex-basis: calc((100%-60) / 3);
 }
 
 .example-item:nth-child(3n) {
@@ -222,6 +220,8 @@ p {
 
 .list-container {
   display: flex;
+}
+.section-item {
   flex-basis: calc((100%-90) / 4);
 }
 
@@ -254,6 +254,9 @@ p {
 
 .images-list {
   display: flex;
+}
+
+.list-image {
   flex-basis: calc((100%-60) / 4);
 }
 
@@ -267,6 +270,9 @@ p {
 
 .team-images {
   display: flex;
+}
+
+.team-item {
   flex-basis: calc((100%-90) / 4);
 }
 .team-item:not(:last-child) {
