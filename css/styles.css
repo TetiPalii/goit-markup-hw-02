@@ -222,10 +222,7 @@ p {
 
 .list-container {
   display: flex;
-}
-
-.section-item {
-  width: 270px;
+  flex-basis: calc((100%-90) / 4);
 }
 
 .section-item:not(:last-child) {
@@ -257,6 +254,7 @@ p {
 
 .images-list {
   display: flex;
+  flex-basis: calc((100%-60) / 4);
 }
 
 .list-image:not(:last-child) {
