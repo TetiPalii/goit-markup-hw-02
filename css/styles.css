@@ -200,6 +200,7 @@ p {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .example-item {
@@ -257,7 +258,7 @@ p {
 }
 
 .list-image {
-  flex-basis: calc((100%-60) / 4);
+  flex-basis: calc((100%-60) / 3);
 }
 
 .list-image:not(:last-child) {
@@ -371,7 +372,6 @@ p {
 }
 .list {
   list-style: none;
-  margin-left: auto;
 }
 .address-item:not(:last-child) {
   margin-bottom: 12px;
