@@ -202,12 +202,13 @@ p {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .portfolio-list {
   list-style: none;
 }
 
 .example-item {
-  flex-basis: calc((100%-60) / 3);
+  flex-basis: calc((100% - 60) / 3);
 }
 
 .example-item:nth-child(3n) {
