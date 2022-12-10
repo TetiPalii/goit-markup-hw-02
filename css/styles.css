@@ -208,7 +208,7 @@ p {
 }
 
 .example-item {
-  flex-basis: calc((100% - 60) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .example-item:nth-child(3n) {
@@ -228,7 +228,7 @@ p {
 }
 
 .section-item {
-  flex-basis: calc((100%-90) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .section-item:not(:last-child) {
@@ -263,7 +263,7 @@ p {
 }
 
 .list-image {
-  flex-basis: calc((100%-60) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .list-image:not(:last-child) {
@@ -279,7 +279,7 @@ p {
 }
 
 .team-item {
-  flex-basis: calc((100%-90) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
