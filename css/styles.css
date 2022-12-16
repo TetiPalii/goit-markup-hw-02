@@ -104,6 +104,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contact-link:hover,
@@ -114,7 +115,17 @@ p {
 }
 
 .hero-section {
-  background-color: var(--secondary-background-color);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: #c4c4c4;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -236,6 +247,29 @@ p {
   margin-right: 30px;
 }
 
+.section-item::before {
+  content: '';
+  display: inline-flex;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: var(--section-background-color);
+}
+
+.icon-sputnik::before {
+  background-image: url(../images/sputnik.svg);
+}
+
+.icon-chart::before {
+  background-image: url(../images/chart.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+
+.icon-austronaut::before {
+  background-image: url(../images/austronaut.svg);
+}
 .section-heading {
   margin-bottom: 10px;
   font-size: 14px;
