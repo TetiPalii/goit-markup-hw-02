@@ -224,6 +224,8 @@ p {
 .filter-button:focus {
   color: var(--text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .flex-container {
@@ -403,6 +405,11 @@ p {
   color: var(--primary-color);
 }
 
+.portfolio-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
 .portfolio-heading {
   font-weight: 700;
   font-size: 18px;
@@ -488,11 +495,12 @@ p {
   color: var(--text-color);
 }
 
-.footer-heading {
+.footer-join {
   color: var(--text-color);
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.17;
+  margin-bottom: 20px;
 }
 .contact-footer {
   font-style: normal;
@@ -502,8 +510,12 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contacts {
+.footer-icons {
   background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+}
+.join {
+  margin-left: 70px;
 }
 .map-link {
   color: var(--text-color);
